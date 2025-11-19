@@ -1,11 +1,4 @@
-## Exercise 5: Days of the Month - 30 Marks
-
-
-
-### Instructions:
-
-### Advanced Requirement:
-
+#Creating dictionary with the months and days
 months = {
     1:31,
     2:28,
@@ -19,10 +12,11 @@ months = {
     10:31,
     11:30,
     12:31}
-
+#Asking the user to input the month number
 a = int(input("Enter your month:"))
-
+#Checking if the month is valid
 if 1 <= a <= 12:
+    #Checking leap year for february
     if a == 2:
         leap = input("Is it a leap year?:")
         if leap == "yes":
@@ -33,5 +27,3 @@ if 1 <= a <= 12:
         print(f"Month {a} has {months[a]} days.")
 else:
     print("This month number doesn't exist.")
-
-

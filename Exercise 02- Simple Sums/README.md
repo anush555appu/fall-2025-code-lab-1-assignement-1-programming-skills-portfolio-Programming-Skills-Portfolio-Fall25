@@ -1,3 +1,5 @@
+
+
 ## Exercise 2: Simple Sums - 15 Marks
 
 In this exercise, you will create and work with integer variables, perform arithmetic operations, and print the result to the console.
